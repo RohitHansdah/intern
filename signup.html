@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="signup.css">
+    <script src="signup.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet" type="text/css">
+<title>Page Title</title>
+</head>
+<body>
+
+
+<div id="boxcontainer">
+    <div id="leftbox">
+        <img src="logo1.jpeg" alt="logo">
+        <div class="text">Sign up using social media to get quick access</div>
+        <div class="google-btn" id="hvr-grow">
+            <div class="google-icon-wrapper">
+              <img class="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>
+            </div>
+            <p class="google-btn-text"></b>google</p>
+          </div>
+          <div class="fb-btn" id="hvr-grow">
+            <div class="fb-icon-wrapper">
+              <img class="fb-icon" src="https://upload.wikimedia.org/wikipedia/commons/c/c2/F_icon.svg"/>
+            </div>
+            <p class="fb-btn-text"><b>facebook</b></p>
+          </div>
+          <div class="twitter-btn" id="hvr-grow">
+            <div class="twitter-icon-wrapper">
+              <img class="twitter-icon" src="twitter-icon.svg"/>
+            </div>
+            <p class="twitter-btn-text"><b>twitter</b></p>
+          </div>
+          <div class="refer-btn" id="hvr-grow">
+            <div class="refer-icon-wrapper">
+              <img class="refer-icon" src="refer.jpg"/>
+            </div>
+            <p class="refer-btn-text"><b>Refer And Earn</b></p>
+          </div>
+    </div>
+    <div id="rightbox">
+      <div class="up" align="center">Create new account</div>
+      <form class="form1">
+      <div class="upbox">
+        <input type="text" placeholder="Name" class="un" required>
+        <input type="email" placeholder="Email address" class="un" required>
+        <input type="password" placeholder="Password" id="pass" required>
+        <i id="pass-status" class="fa fa-eye" aria-hidden="true" onClick="viewPassword()"></i>
+        <input type="password" placeholder="Confirm password" id="pass" required>
+        <input type="text" placeholder="Refer" class="un" required>
+      </div>
+        <div class="flex-container">
+        <label style=" font-family: 'Dosis', sans-serif; font-size: 20px; color: rgb(133, 131, 131);">
+        By clicking Agree & join,you agree to the W,OW! <a id="user-agreement" href="#">User agreement</a> and
+        <a id="privacy" href="#">Privacy policy</a>.</label>
+      </div>
+        <button class="sub-btn hvr-grow" type="submit" align="center">Agree & Join</button>
+        <label style=" font-family: 'Dosis', sans-serif; font-size: 20px; color: rgb(133, 131, 131);">
+        <div class="login-container">
+        Already have an account? <a href="login.html" id="login">Login</a></label>
+        </div>
+        </form>
+    </div>
+
+</div>
+</body>
+<footer class="btm-box">
+  <ul>
+    <li><a href="#">ABOUT</a> </li> <li><a href="#">HELP</a></li> <li><a href="#">PRESS</a></li> <li><a href="#">API</a></li> <li><a href="#">JOBS</a></li>
+    <li><a href="#">PRIVACY</a></li> <li><a href="#">TERMS</a></li> <li><a href="#">LOCATIONS</a></li> <li><a href="#">TOP ACCOUNTS</a></li> <li><a href="#">HASHTAGS</a></li> <li><a href="#">LANGUAGE</a></li>
+  </ul>
+</footer>
+</html>

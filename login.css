@@ -1,0 +1,261 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+body{
+  background-image: url('bg_signup_login.jpg') ;
+  background-size:  100%;
+  background-repeat: no-repeat;
+}
+#boxcontainer{
+  height: 100vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: row;
+  margin:4% auto;
+  align-items: center;
+  box-shadow: 10px 10px 10px 10px rgba(0,0,0,.25);
+}
+#leftbox{
+    background-color: darkcyan;
+    width: 40%;
+    height: 100%;
+    order: 1;
+}
+img{
+  width:70%;
+  height: 15%;
+  margin-top: 20%;
+  margin-left: 10%;
+}
+.text{
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-right: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 150%;
+  text-align: center;
+}
+#rightbox{
+    background-color: white;
+    width: 60%;
+    height: 100%;
+    order: 2;
+}
+.google-btn {
+  width: 50%;
+  height: 8%;
+  background-color: white;
+  border-radius: 3%;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+  margin-top: 10%;
+  margin-left: 20%;
+  text-align: center;
+}
+    .google-icon-wrapper {
+      margin-top: 5%;
+      margin-left: 1%;
+      width: 10%;
+      height: 20%;
+      border-radius: 2px;
+      background-color: #fff;
+    }
+    .google-icon {
+      margin-top: 50%;
+      margin-left: 8%;
+      width: 500%;
+      height: 300%;
+    }
+    .google-btn-text {
+      padding-top: 5% ;
+      padding-left: 20%;
+      color: black;
+      font-size: 100%;
+      font-weight: bolder;
+      letter-spacing: 50%;
+      font-family: "Arial";
+      text-align: center;
+    }
+    .fb-btn {
+      width: 50%;
+      height: 8%;
+      background-color: #3b5998;
+      border-radius: 3%;
+      box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+      margin-top: 10%;
+      margin-left: 20%;
+      text-align: center;
+    }
+        .fb-icon-wrapper {
+          margin-top: 5%;
+            margin-left: 1%;
+            width: 10%;
+            height: 20%;
+            border-radius: 2px;
+            background-color: #3b5998;
+        }
+        .fb-icon {
+          margin-top: 30%;
+            margin-left: 1%;
+            width: 500%;
+            height: 300%;
+        }
+        .fb-btn-text {
+          padding-top: 4% ;
+            padding-left: 20%;
+            font-size: 100%;
+            letter-spacing: 50%;
+            text-align: center;
+            color: #fff;
+           font-family: "Arial";
+        }
+        .twitter-btn {
+          width: 50%;
+          height: 8%;
+          border-radius: 3%;
+          box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+          margin-top: 10%;
+          margin-left: 20%;
+          text-align: center;
+          background-color: #00acee;
+        
+        }
+            .twitter-icon-wrapper {
+              margin-top: 5%;
+                margin-left: 1%;
+                width: 10%;
+                height: 20%;
+                border-radius: 2px;
+                background-color: #00acee;
+            }
+            .twitter-icon {
+              margin-top: 50%;
+                margin-left: 1%;
+                width: 500%;
+                height: 300%;
+            }
+            .twitter-btn-text {
+              padding-top: 4% ;
+                padding-left: 20%;
+                font-size: 100%;
+                letter-spacing: 50%;
+                text-align: center;
+                color: #fff;
+                font-family: "Arial";
+            }
+ 
+            #hvr-grow ,.google-btn:hover,.twitter-btn:hover,.fb-btn:hover{
+              display: flexbox;
+              flex-direction: row;
+              vertical-align: middle;
+              -webkit-transform: perspective(1%) translateZ(0);
+              transform: perspective(1%) translateZ(0);
+              -webkit-transition-duration: 0.3s;
+              transition-duration: 0.3s;
+              -webkit-transition-property: transform;
+              transition-property: transform;
+            }
+            .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active ,.google-btn:hover,.twitter-btn:hover,.fb-btn:hover{
+              -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+              cursor: pointer;
+            }
+.up{
+  margin-top: 5%;
+  color: rgb(39, 11, 54);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 270%;
+}
+.up2{
+    margin-top: 15%;
+    font-family: 'Dosis', sans-serif;
+    color: slategrey;
+    font-size: 150%;
+}
+
+    .upbox{
+        display: flex;
+        flex-direction: column;
+    }
+    .un{
+      font-family: 'Dosis', sans-serif;
+      border: none;
+      border-bottom: 2px solid rgb(114, 114, 114);
+      width: 80%;
+      align-self: center;
+      margin-top: 10%;
+      font-size: 100%;
+      padding-bottom: 2%;
+      margin-bottom: 5%;
+      outline: none;
+      font-size: large;
+    }
+    
+    #pass{
+      font-family: 'Dosis', sans-serif;
+      border: none;
+      border-bottom: 2px solid rgb(114, 114, 114);
+      width: 80%;
+      align-self: center;
+      margin-top: 10%;
+      font-size: 100%;
+      padding-bottom: 2%;
+      margin-bottom: 5%;
+      outline: none;
+      font-size: large;
+    }
+    .flex-container{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5%;
+        flex-direction: row;
+        margin: 5% 10%;
+    }
+    #check{
+      font-family: 'Dosis', sans-serif;
+      border-bottom: 2px solid rgb(114, 114, 114);
+        font-size: 5%;
+    }
+     #fog {
+        font-family: 'Dosis', sans-serif;
+        font-size: 150%;
+        margin-right: 2%;
+        text-decoration: none;
+        color: #4285f4;
+    }
+    .sub-btn{
+      color: white;
+      font-family: 'Dosis', sans-serif;
+      font-size: 130%;
+      background-color: #4285f4;
+      margin-top: 2%;
+      margin-left: 10%;
+      border-radius: 5px;
+      width: 80%;
+      padding-bottom: 5%;
+      padding-top: 5%;
+      height: 10%;
+    }
+    .btm-box{
+      margin-top:10% ;
+      text-align: center;
+      padding-bottom: 4%;
+      display: flex;
+      flex-direction: row;
+      margin-left: 7%;
+    }
+    ul{
+        list-style-type: none;
+        word-spacing: 20px;
+    }
+    ul li a{ 
+      font-family: 'Dosis', sans-serif;
+      text-decoration: none;
+      font-size: 150%;
+      color: darkcyan;
+      }
+    ul li{
+        display:inline;
+    }
