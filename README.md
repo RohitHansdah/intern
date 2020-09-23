@@ -6,4 +6,4 @@ This Intership was solely based on building a bussiness website for the startup 
 I was working  on the Front - End mostly and was also leading the BACK - END team  and trying to solve some of issuses which we faced during the 
 web development process.Various ideas were also explored and dicussed 
   
-
+![abc](https://user-images.githubusercontent.com/44118554/93969768-4d27f580-fd8a-11ea-9770-b68d52f97a26.png)
