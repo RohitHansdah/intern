@@ -13,3 +13,6 @@ web development process.Various ideas were also explored and dicussed
 
 
 ![100](https://user-images.githubusercontent.com/44118554/96335509-c1f30480-1096-11eb-8054-a47aa92d37bc.PNG)
+
+
+![99](https://user-images.githubusercontent.com/44118554/96335546-07afcd00-1097-11eb-8e2c-ecb46c604d9d.PNG)
