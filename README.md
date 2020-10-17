@@ -7,3 +7,6 @@ I was working  on the Front - End mostly and was also leading the BACK - END tea
 web development process.Various ideas were also explored and dicussed 
   
 ![abc](https://user-images.githubusercontent.com/44118554/93969768-4d27f580-fd8a-11ea-9770-b68d52f97a26.png)
+
+
+![123](https://user-images.githubusercontent.com/44118554/96335473-85bfa400-1096-11eb-9c6a-7b5773a32ccd.PNG)
